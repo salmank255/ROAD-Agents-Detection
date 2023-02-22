@@ -12,7 +12,7 @@ Alternatively, you can create a shortcut of the [Google-Drive folder `ROAD-Datas
 The dataset is divided into three splits; train_set, val_set, and test_set
 
 ```
-    ROAD-Agent-Detection/
+    ROAD-Dataset/
         - train_set.json
         - train_set/
             - 2014-06-25-16-45-34_stereo_centre_02_00001.jpg
