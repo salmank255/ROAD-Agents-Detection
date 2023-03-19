@@ -54,3 +54,30 @@ In the Pascal-Voc format, the annotation is provided in xml file where for each 
 
 ## Training Object Detectors
 
+As examples, we provided links to object detectors (one from each above formats).
+
+### YOLO -- Following YOLO format
+
+YOLO object detection family has 8 different versions, one of the most famous version is YOLOv5.
+
+YOLOv5 can be install from this link https://github.com/ultralytics/yolov5.
+
+To train your ROAD-Agents-Detection you need to follow the instruction given in this link https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data. The data and yml file are already provided in the desired format.
+
+
+### Mmdetection Library -- Following COCO format
+
+MMDetection is an open source object detection toolbox based on PyTorch.
+
+Mmdetection library can be install from this link https://github.com/open-mmlab/mmdetection.
+
+To train any object detector from mmdetection library you need to follow the instruction given in this link https://github.com/open-mmlab/mmdetection/blob/master/docs/en/2_new_data_model.md. The data and json files are already provided in the desired format.
+
+
+### TensorFlow Object Detection API
+
+TensorFlow Object Detection API is also an open source object detection toolbox based on TensorFlow.
+
+TensorFlow Object Detection API can be install from this link https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md.
+
+To train any object detector from TensorFlow Object Detection API you need to follow the instruction given in this link https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_training_and_evaluation.md. The data is provided in Pascal Voc format (images and xml files), which needs to be convert into tfrecord by following the instructions in this link https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/preparing_inputs.md
