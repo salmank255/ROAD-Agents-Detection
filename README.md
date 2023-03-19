@@ -74,7 +74,7 @@ Mmdetection library can be install from this link https://github.com/open-mmlab/
 To train any object detector from mmdetection library you need to follow the instruction given in this link https://github.com/open-mmlab/mmdetection/blob/master/docs/en/2_new_data_model.md. The data and json files are already provided in the desired format.
 
 
-### TensorFlow Object Detection API
+### TensorFlow Object Detection API -- Pascal-VOC
 
 TensorFlow Object Detection API is also an open source object detection toolbox based on TensorFlow.
 
